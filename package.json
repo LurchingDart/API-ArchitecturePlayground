@@ -1,0 +1,26 @@
+{
+  "name": "clientserverplaygroundapi",
+  "version": "0.0.1",
+  "description": "An API for the Client-Server Architecture type for the Architectures Playground project",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LurchingDart/ClientServerPlaygroundAPI.git"
+  },
+  "keywords": [
+    "Client-Server",
+    "API",
+    "Express",
+    "Node.js",
+    "Architectures"
+  ],
+  "author": "LurchingDart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LurchingDart/ClientServerPlaygroundAPI/issues"
+  },
+  "homepage": "https://github.com/LurchingDart/ClientServerPlaygroundAPI#readme"
+}
