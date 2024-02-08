@@ -6,10 +6,12 @@ const operations = {
         return parseInt(squareSide) * parseInt(squareSide);
     },
     circlePerimeter: (circleRadius) => {
-        return 2 * Math.PI * parseInt(circleRadius);
+        let result = 2 * Math.PI * parseInt(circleRadius);
+        return result.toFixed(2);
     },
     circleArea: (circleRadius) => {
-        return Math.PI * Math.pow(circleRadius, 2)
+        let result = Math.PI * Math.pow(circleRadius, 2)
+        return result.toFixed(2);
     },
     trianglePerimeter: (sideT1, sideT2, sideT3) => {
         return parseInt(sideT1) + parseInt(sideT2) + parseInt(sideT3)
