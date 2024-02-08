@@ -4,7 +4,8 @@
   "description": "An API for the Client-Server Architecture type for the Architectures Playground project",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
