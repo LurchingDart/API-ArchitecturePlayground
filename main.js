@@ -1,7 +1,9 @@
 const express = require('express');
-const calculator = require('./calculator');
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors());
 
 //-----Routes-----//
 const circle = require('./routes/circle');
